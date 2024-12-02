@@ -43,10 +43,10 @@ function App() {
       { name: "St. Paul Anglican Church", hotels: 8, imgSrc: "images/Landmarks/Edo/st_paul.jpeg" },
     ],
     "Lagos": [
-      { name: "Lekki Peninsula Scheme 1", hotels: 19, imgSrc: "images/hive1.png" },
-      { name: "Victoria Island", hotels: 28, imgSrc: "images/hive2.png" },
-      { name: "Bon Hotel", hotels: 42, imgSrc: "images/hive5.png" },
-      { name: "Bon Hotel", hotels: 42, imgSrc: "images/hive5.png" },
+      { name: "Bon Hotel", hotels: 19, imgSrc: "images/Landmarks/Lag/bon_hotel.jpeg" },
+      { name: "Lekki Peninsula Scheme 1", hotels: 28, imgSrc: "images/Landmarks/Lag/lekki_peninsula_scheme_1.jpeg" },
+      { name: "Victoria Island", hotels: 42, imgSrc: "images/Landmarks/Lag/victoria_island.jpeg" },
+      { name: "Murtala Muhammed Airport", hotels: 42, imgSrc: "images/Landmarks/Lag/murtala_mohammed_airport.jpeg" },
     ]
   };
 
@@ -97,7 +97,7 @@ function App() {
   function updateLandmarksBasedOnLocation(location) {
     console.log("location", location);
     setLocation(location);
-    // setLandmarks(landmarksData["Plateau"] || []);
+    // setLandmarks(landmarksData["Lagos"] || []);
 
     // setLandmarks( landmarksData[location]);
     // if (location && landmarksData.hasOwnProperty(location)) {
