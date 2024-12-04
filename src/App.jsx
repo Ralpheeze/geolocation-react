@@ -18,7 +18,7 @@ function App() {
       { name: "Polo Park Mall", hotels: 5, imgSrc: "images/Landmarks/Enu/polo_park_mall.jpeg" },
       { name: "Ngwo Pine Forest", hotels: 10, imgSrc: "images/Landmarks/Enu/ngwo_pine_forest.jpeg" },
     ],
-    "Abuja": [
+    "Abuja Federal Capital Territory": [
       { name: "National Mosque", hotels: 12, imgSrc: "images/Landmarks/Abj/mosque.jpeg" },
       { name: "Aso Rock", hotels: 15, imgSrc: "images/Landmarks/Abj/aso_rock.jpeg" },
       { name: "Jabi Lake", hotels: 9, imgSrc: "images/Landmarks/Abj/jabi_lake.jpeg" },
