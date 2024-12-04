@@ -5,6 +5,9 @@ import react from '@vitejs/plugin-react-swc'
 export default defineConfig({
   base: "/geolocation-react/",
   plugins: [react()],
+  // build: {
+  //   outDir: 'dist', // Default output directory
+  // },
   
   // server: {
   //   https: false,
